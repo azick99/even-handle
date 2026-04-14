@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import {KeyboardExample}from'./components/KeyboardExample.tsx'
+import { FocusExample } from './components/BluerExample.tsx'
 
 const InputExample = () => {
   const [value, setValue] = useState<string>('');
@@ -141,6 +142,7 @@ function App() {
      <LoginForm/>
      <SelectExample/>
      <KeyboardExample/>
+     <FocusExample/>
     </div>
     </>
   )
